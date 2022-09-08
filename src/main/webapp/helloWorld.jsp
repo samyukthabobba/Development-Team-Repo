@@ -31,8 +31,7 @@
                 <h:inputText id="name" value="" required="true"/>
                 <h:commandButton value="Submit" action="#{helloWorld.send}"/>
                 <h:messages showDetail="true" showSummary="false"/>
-                  
-              </h:panelGrid>
+               </h:panelGrid>
             </h:form>
         </f:view>
     </body>
