@@ -31,10 +31,7 @@
                 <h:inputText id="name" value="" required="true"/>
                 <h:commandButton value="Submit" action="#{helloWorld.send}"/>
                 <h:messages showDetail="true" showSummary="false"/>
-                  <error-page>
-        <error-code>404</error-code>
-        <location>/WEB-INF/views/error.html</location>
-</error-page>
+                  
               </h:panelGrid>
             </h:form>
         </f:view>
